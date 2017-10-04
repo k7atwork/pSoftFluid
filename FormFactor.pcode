@@ -1,0 +1,13 @@
+If %Request.BrowserDeviceFormFactor = %FormFactor_Large Or
+      %Request.BrowserDeviceFormFactor = %FormFactor_Medium Or
+      %Request.BrowserDeviceFormFactor = %FormFactor_Small Then
+   
+   /* change to div grid */
+   rem &grid.Layout = %ListGrid;
+   
+Else
+
+   /* change to flex grid */
+   rem &grid.Layout = %OriginalFlexGrid;
+   
+End-If;
