@@ -6,9 +6,13 @@ To make a button Green:
 -----------------------
 RECORD.FIELD.FreeFormStyleName = "psc_selected";
 
-To make a flat button:
+To format a button:
 ----------------------
 psc_button-simple
+psc_modal-close
+psc_modal-button
+psc_modal-cancel
+psc_modal-done
 
 To format a layout
 ------------------
@@ -16,7 +20,4 @@ psc_padding-1em
 psc_halign‐left
 psc_align-center 
 psc_label-top
-psc_modal-close
-psc_modal-button
-psc_modal-cancel
-psc_modal-done
+
