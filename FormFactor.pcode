@@ -11,3 +11,10 @@ Else
    rem &grid.Layout = %OriginalFlexGrid;
    
 End-If;
+
+
+
+
+Declare Function SetViewport PeopleCode PTLAYOUT.FUNCLIB FieldFormula;
+
+SetViewport("");
