@@ -1,0 +1,22 @@
+/*
+Local string &sPopupOptions = "bAutoClose@1;";
+&sPopupOptions = &sPopupOptions | "bCenter@1;";
+&sPopupOptions = &sPopupOptions | "bHeader@1;";
+&sPopupOptions = &sPopupOptions | "bClose@1;";
+&sPopupOptions = &sPopupOptions | "width@400;";
+&sPopupOptions = &sPopupOptions | "height@375;";
+*/
+
+&sPopupOptions = "width@300;height@300;bClose@1;bAutoClose@1;bAutoCloseWarn@0;bTail@1;bCenter@1;";
+
+If %Request.BrowserDeviceType = "phone" Or
+      %Request.BrowserDeviceType = "tablet" Then
+
+   &sPopupOptions = "bFullScreen@1"; 
+   
+End-If;
+
+If DoModalPopup(&sPopupOptions, "", False, False, Page.EMPV_FLTR_FL, "Title", - 1, - 1) = 1 Then
+
+End-If
+
