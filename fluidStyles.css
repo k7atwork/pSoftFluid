@@ -2,5 +2,17 @@
 /* STYLES */
 /*--------*/
 
+To make a button Green:
+-----------------------
 RECORD.FIELD.FreeFormStyleName = "psc_selected";
 
+To make a flat button:
+----------------------
+psc_button-simple
+
+To format a layout
+------------------
+psc_padding-1em 
+psc_halign‐left
+psc_align-center 
+psc_label-top
