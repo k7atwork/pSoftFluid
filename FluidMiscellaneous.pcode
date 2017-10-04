@@ -1,0 +1,4 @@
+/*-- To Avoid History of a page visit */
+
+SetTransferAttributes( False, True);
+
